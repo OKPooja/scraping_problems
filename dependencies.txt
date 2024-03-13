@@ -1,0 +1,5 @@
+selenium
+pymongo
+configparser
+
+Install chromedriver from Chrome's official website and modify the path in the .py file
