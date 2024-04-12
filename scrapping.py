@@ -20,7 +20,7 @@ if client.server_info():
 service = Service(executable_path='C:\Program Files (x86)\chromedriver.exe')
 driver = webdriver.Chrome(service=service)
 
-driver.get('https://leetcode.com/tag/sorting')
+driver.get('https://leetcode.com/problems/two-sum/')
 
 start_time = time.time()
 time.sleep(5)
@@ -49,3 +49,4 @@ end_time = time.time()
 print("Time required to copy the data: {:.2f} seconds".format(end_time - start_time))
 
 driver.quit()
+
